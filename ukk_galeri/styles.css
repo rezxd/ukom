@@ -1,0 +1,91 @@
+/* CSS untuk halaman login, registrasi, dan dashboard */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px; /* Ukuran maksimum container untuk halaman login dan registrasi */
+    margin: 100px auto; /* Pusatkan container secara vertikal dan horizontal */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Warna teks judul menjadi lebih gelap */
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555; /* Warna teks label menjadi lebih gelap */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 15px;
+    text-align: center; /* Pusatkan teks pada paragraf */
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Penyesuaian khusus untuk halaman dashboard */
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.photo {
+    width: calc(33.33% - 20px); /* Mengatur tampilan dalam tiga kolom */
+    text-align: center;
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.photo p {
+    margin-top: 10px;
+}
